@@ -1,2 +1,2 @@
 # supersh-beta
-Super Shell beta.. a minimal shell that includes background processing and history features.
+Super Shell beta.. a minimal shell that includes background processing and history recall.  Background processing is the typical appended ampersand syntax at the end of a typical statement causes the shell to continue running and exec()'ing new commands, while waitpid() is performed on children.  History recall allows the user to re-execute a past command by typing an exclamation point and then a whole number representing how many commands the shell has executed since the selected command.    
